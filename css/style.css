@@ -214,6 +214,10 @@
     height: 180%;
     position: absolute;
   }
+  .logo{
+    width: 4.5em;
+  }
+
 
     
 
@@ -221,6 +225,11 @@
         margin-top: 25px;
         border-top: 1px solid #EEEEEE;
     }
+}
+@media (min-width: 1054px){
+.logo{
+  width: 7.5em;
+}
 }
 
 @media (min-width: 992px) {
@@ -239,7 +248,7 @@
       display: none;
     }
     .logo{
-      width: 4.5em;
+      width: 5.8em;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
