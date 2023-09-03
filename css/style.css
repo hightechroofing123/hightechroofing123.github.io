@@ -156,7 +156,8 @@
     z-index: -1;
     
   }
-  
+
+
   
   
 .navbar .navbar-nav .nav-link {
@@ -190,6 +191,7 @@
   background-color: transparent;
   border: 0;
 }
+
 
 
 @media (max-width: 991.98px) {
@@ -235,6 +237,9 @@
     }
     .navbar123{
       display: none;
+    }
+    .logo{
+      width: 4.5em;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
